@@ -1,0 +1,65 @@
+{
+  "companies": [
+    {
+      "id": "demo-manufacturing-a",
+      "name": "株式会社デモ製作所A",
+      "shortName": "デモ製作所A",
+      "description": "旋削系部品を中心としたサンプル会社",
+      "priority": 1,
+      "products": [
+        {
+          "id": "demo-shaft-series",
+          "name": "デモシャフト",
+          "category": "切削部品",
+          "description": "公開デモ向けのサンプル部品",
+          "drawingCount": 1,
+          "drawings": [
+            "DEMO-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-precision-b",
+      "name": "株式会社デモ精密B",
+      "shortName": "デモ精密B",
+      "description": "ブラケット加工を中心としたサンプル会社",
+      "priority": 2,
+      "products": [
+        {
+          "id": "demo-bracket-series",
+          "name": "デモブラケット",
+          "category": "ブラケット",
+          "description": "公開デモ向けのサンプルブラケット",
+          "drawingCount": 1,
+          "drawings": [
+            "DEMO-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-works-c",
+      "name": "株式会社デモ工業C",
+      "shortName": "デモ工業C",
+      "description": "カバー部品を中心としたサンプル会社",
+      "priority": 3,
+      "products": [
+        {
+          "id": "demo-cover-series",
+          "name": "デモカバー",
+          "category": "カバー",
+          "description": "公開デモ向けのサンプルカバー",
+          "drawingCount": 1,
+          "drawings": [
+            "DEMO-003"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-02-15T00:00:00.000Z",
+    "version": "1.0.0"
+  }
+}

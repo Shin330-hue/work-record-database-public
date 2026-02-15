@@ -1,0 +1,98 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+public/data
+public/data/
+doc/import_files
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+
+# バッチファイル（本番環境設定含む）
+*.bat
+*.cmd
+run_db.bat
+stop_db.bat
+
+# ログファイル
+*.log
+server.log
+error.log
+access.log
+
+# NAS設定ファイル（セキュリティ）
+scripts/mount-nas.bat
+scripts/mount-nas.sh
+nas-config.env
+*.env.nas
+*.env.production
+
+# 認証情報を含むファイル
+**/credentials/
+**/secrets/
+public/data/auth/passwords.json
+
+# IPアドレスや設定情報を含むファイル
+**/config/production/
+**/config/staging/
+hosts.txt
+network-config.*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+venv/ 
+__pycache__/ 
+*.pyc 
+.env 
+
+# Claude Code project memory
+CLAUDE.md 
+
+# Claude一時作業ファイル（セッション間の引き継ぎ用）
+doc/doc_for_claude/
+
+# Ollamaテスト関連ファイル
+test-ollama*.js
+pull-model.js
+
+# Claude Code local settings
+/.claude/
+.claude/settings.local.json

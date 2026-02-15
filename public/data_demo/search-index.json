@@ -1,0 +1,90 @@
+{
+  "drawings": [
+    {
+      "drawingNumber": "DEMO-001",
+      "displayDrawingNumber": "DRW-DEMO-001",
+      "productName": "デモシャフト",
+      "companyName": "株式会社デモ製作所A",
+      "companyId": "demo-manufacturing-a",
+      "productId": "demo-shaft-series",
+      "title": "サンプルシャフト加工",
+      "category": "切削部品",
+      "keywords": [
+        "デモ",
+        "シャフト",
+        "ターニング",
+        "初級"
+      ],
+      "folderPath": "drawing-DEMO-001",
+      "hasImages": true,
+      "hasVideos": true,
+      "hasDrawing": true,
+      "stepCount": 2,
+      "difficulty": "初級",
+      "estimatedTime": "45分",
+      "machineType": [
+        "turning"
+      ],
+      "createdAt": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "drawingNumber": "DEMO-002",
+      "displayDrawingNumber": "DRW-DEMO-002",
+      "productName": "デモブラケット",
+      "companyName": "株式会社デモ精密B",
+      "companyId": "demo-precision-b",
+      "productId": "demo-bracket-series",
+      "title": "サンプルブラケット加工",
+      "category": "ブラケット",
+      "keywords": [
+        "デモ",
+        "ブラケット",
+        "マシニング",
+        "中級"
+      ],
+      "folderPath": "drawing-DEMO-002",
+      "hasImages": false,
+      "hasVideos": false,
+      "hasDrawing": true,
+      "stepCount": 2,
+      "difficulty": "中級",
+      "estimatedTime": "60分",
+      "machineType": [
+        "machining"
+      ],
+      "createdAt": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "drawingNumber": "DEMO-003",
+      "displayDrawingNumber": "DRW-DEMO-003",
+      "productName": "デモカバー",
+      "companyName": "株式会社デモ工業C",
+      "companyId": "demo-works-c",
+      "productId": "demo-cover-series",
+      "title": "サンプルカバー加工",
+      "category": "カバー",
+      "keywords": [
+        "デモ",
+        "カバー",
+        "ラジアル",
+        "初級"
+      ],
+      "folderPath": "drawing-DEMO-003",
+      "hasImages": false,
+      "hasVideos": false,
+      "hasDrawing": true,
+      "stepCount": 2,
+      "difficulty": "初級",
+      "estimatedTime": "50分",
+      "machineType": [
+        "radial"
+      ],
+      "createdAt": "2026-02-15T00:00:00.000Z"
+    }
+  ],
+  "metadata": {
+    "totalDrawings": 3,
+    "lastIndexed": "2026-02-14T23:58:50.309Z",
+    "version": "1.0"
+  }
+}

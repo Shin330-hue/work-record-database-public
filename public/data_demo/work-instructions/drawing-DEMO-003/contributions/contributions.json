@@ -1,0 +1,36 @@
+{
+  "drawingNumber": "DEMO-003",
+  "contributions": [
+    {
+      "id": "1771112323635_jkoy571wm",
+      "userId": "demo-admin",
+      "userName": "公開デモ管理者",
+      "timestamp": "2026-02-14T23:38:43.638Z",
+      "type": "image",
+      "targetSection": "overview",
+      "content": {
+        "text": "完成品",
+        "imagePath": "files/images/demo-admin_1771112323635_jkoy571wm_0.png",
+        "originalFileName": "Gemini_Generated_Image_yoct3ayoct3ayoct.png",
+        "fileSize": 7518408,
+        "files": [
+          {
+            "fileName": "demo-admin_1771112323635_jkoy571wm_0.png",
+            "originalFileName": "Gemini_Generated_Image_yoct3ayoct3ayoct.png",
+            "fileType": "image",
+            "mimeType": "image/png",
+            "fileSize": 7518408,
+            "filePath": "files/images/demo-admin_1771112323635_jkoy571wm_0.png"
+          }
+        ]
+      },
+      "status": "active"
+    }
+  ],
+  "metadata": {
+    "totalContributions": 1,
+    "lastUpdated": "2026-02-14T23:38:43.638Z",
+    "version": "1.0",
+    "mergedCount": 0
+  }
+}

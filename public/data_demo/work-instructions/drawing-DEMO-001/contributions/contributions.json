@@ -1,0 +1,36 @@
+{
+  "drawingNumber": "DEMO-001",
+  "contributions": [
+    {
+      "id": "1771112243419_64bjlgj8v",
+      "userId": "demo-admin",
+      "userName": "公開デモ管理者",
+      "timestamp": "2026-02-14T23:37:23.422Z",
+      "type": "image",
+      "targetSection": "overview",
+      "content": {
+        "text": "段取り中",
+        "imagePath": "files/images/demo-admin_1771112243419_64bjlgj8v_0.png",
+        "originalFileName": "Gemini_Generated_Image_23vuvc23vuvc23vu.png",
+        "fileSize": 9896580,
+        "files": [
+          {
+            "fileName": "demo-admin_1771112243419_64bjlgj8v_0.png",
+            "originalFileName": "Gemini_Generated_Image_23vuvc23vuvc23vu.png",
+            "fileType": "image",
+            "mimeType": "image/png",
+            "fileSize": 9896580,
+            "filePath": "files/images/demo-admin_1771112243419_64bjlgj8v_0.png"
+          }
+        ]
+      },
+      "status": "active"
+    }
+  ],
+  "metadata": {
+    "totalContributions": 1,
+    "lastUpdated": "2026-02-14T23:37:23.422Z",
+    "version": "1.0",
+    "mergedCount": 0
+  }
+}

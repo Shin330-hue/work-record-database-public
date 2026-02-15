@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "drawingNumber": "DEMO-001",
+    "displayDrawingNumber": "DRW-DEMO-001",
+    "title": "サンプルシャフト加工",
+    "companyId": "demo-manufacturing-a",
+    "productId": "demo-shaft-series",
+    "createdDate": "2026-02-15",
+    "updatedDate": "2026-02-14",
+    "author": "Demo Admin",
+    "estimatedTime": "45分",
+    "machineType": [
+      "turning"
+    ],
+    "difficulty": "初級",
+    "toolsRequired": [
+      "ノギス",
+      "外径バイト"
+    ]
+  },
+  "overview": {
+    "description": "公開版の動作確認向けに用意したサンプル手順です。",
+    "warnings": [
+      "実加工時は必ず実測と社内基準で確認してください。"
+    ],
+    "preparationTime": "10分",
+    "processingTime": "35分"
+  },
+  "workSteps": [
+    {
+      "stepNumber": 1,
+      "title": "材料準備",
+      "description": "材料寸法と外観を確認してチャックにセットする。",
+      "detailedInstructions": [
+        "図面寸法と材料ロットを照合する",
+        "チャックの把握長を確認する"
+      ],
+      "timeRequired": "15分",
+      "tools": [
+        "ノギス"
+      ],
+      "warningLevel": "caution",
+      "images": [
+        "2026-02-14T23-36-46-132Z-Gemini_Generated_Image_23vuvc23vuvc23vu.png"
+      ],
+      "videos": [
+        "2026-02-14T23-36-46-179Z-マシニングセンター切削加工動画.mp4"
+      ]
+    },
+    {
+      "stepNumber": 2,
+      "title": "外径仕上げ",
+      "description": "外径を仕上げ寸法まで加工する。",
+      "detailedInstructions": [
+        "荒加工後に仕上げ代を確認する",
+        "最終寸法を測定して記録する"
+      ],
+      "timeRequired": "20分",
+      "tools": [
+        "外径バイト",
+        "ノギス"
+      ],
+      "warningLevel": "normal",
+      "images": [],
+      "videos": []
+    }
+  ],
+  "relatedDrawings": [
+    {
+      "drawingNumber": "DEMO-002",
+      "relation": "同系列部品",
+      "description": "治具構成が近いため参考可能"
+    }
+  ],
+  "troubleshooting": [],
+  "revisionHistory": [
+    {
+      "date": "2026-02-15",
+      "author": "Demo Admin",
+      "changes": "公開版サンプルとして新規作成"
+    }
+  ],
+  "workStepsByMachine": {
+    "machining": [
+      {
+        "stepNumber": 1,
+        "title": "材料準備",
+        "description": "材料寸法と外観を確認してチャックにセットする。",
+        "detailedInstructions": [
+          "図面寸法と材料ロットを照合する",
+          "チャックの把握長を確認する"
+        ],
+        "timeRequired": "15分",
+        "tools": [
+          "ノギス"
+        ],
+        "warningLevel": "caution",
+        "cuttingConditions": {
+          "condition_1": {
+            "tool": "φ100フェイスミル",
+            "spindleSpeed": "S500",
+            "feedRate": "F500",
+            "depthOfCut": "2mm",
+            "stepOver": ""
+          }
+        }
+      },
+      {
+        "stepNumber": 2,
+        "title": "外径仕上げ",
+        "description": "外径を仕上げ寸法まで加工する。",
+        "detailedInstructions": [
+          "荒加工後に仕上げ代を確認する",
+          "最終寸法を測定して記録する"
+        ],
+        "timeRequired": "20分",
+        "tools": [
+          "外径バイト",
+          "ノギス"
+        ],
+        "warningLevel": "normal",
+        "qualityCheck": {
+          "items": [
+            {
+              "checkPoint": "全長",
+              "tolerance": "±0.5",
+              "surfaceRoughness": "Ra 6.3",
+              "inspectionTool": "ノギス"
+            }
+          ]
+        }
+      }
+    ],
+    "turning": [],
+    "yokonaka": [],
+    "radial": [],
+    "other": []
+  },
+  "nearMiss": []
+}

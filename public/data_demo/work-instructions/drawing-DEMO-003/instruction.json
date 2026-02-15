@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "drawingNumber": "DEMO-003",
+    "displayDrawingNumber": "DRW-DEMO-003",
+    "title": "サンプルカバー加工",
+    "companyId": "demo-works-c",
+    "productId": "demo-cover-series",
+    "createdDate": "2026-02-15",
+    "updatedDate": "2026-02-15",
+    "author": "Demo Admin",
+    "estimatedTime": "50分",
+    "machineType": [
+      "radial"
+    ],
+    "difficulty": "初級",
+    "toolsRequired": [
+      "ボール盤",
+      "面取り工具"
+    ]
+  },
+  "overview": {
+    "description": "カバー部品の穴あけ・仕上げ手順サンプルです。",
+    "warnings": [
+      "バリ処理後に外観確認をしてください。"
+    ],
+    "preparationTime": "10分",
+    "processingTime": "40分"
+  },
+  "workSteps": [
+    {
+      "stepNumber": 1,
+      "title": "穴あけ位置確認",
+      "description": "ケガキ線と図面を照合して位置決めする。",
+      "detailedInstructions": [
+        "基準面と穴位置寸法を確認する",
+        "ポンチで下穴位置を決める"
+      ],
+      "timeRequired": "15分",
+      "tools": [
+        "ポンチ"
+      ],
+      "warningLevel": "caution"
+    },
+    {
+      "stepNumber": 2,
+      "title": "穴あけ・面取り",
+      "description": "穴あけ後に面取りして仕上げる。",
+      "detailedInstructions": [
+        "指定径で穴あけする",
+        "面取り後にバリを除去する"
+      ],
+      "timeRequired": "35分",
+      "tools": [
+        "ボール盤",
+        "面取り工具"
+      ],
+      "warningLevel": "normal"
+    }
+  ],
+  "relatedDrawings": [
+    {
+      "drawingNumber": "DEMO-001",
+      "relation": "治具共通",
+      "description": "段取り手順が近い"
+    }
+  ],
+  "troubleshooting": [],
+  "revisionHistory": [
+    {
+      "date": "2026-02-15",
+      "author": "Demo Admin",
+      "changes": "公開版サンプルとして新規作成"
+    }
+  ]
+}

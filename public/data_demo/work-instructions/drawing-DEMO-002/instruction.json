@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "drawingNumber": "DEMO-002",
+    "displayDrawingNumber": "DRW-DEMO-002",
+    "title": "サンプルブラケット加工",
+    "companyId": "demo-precision-b",
+    "productId": "demo-bracket-series",
+    "createdDate": "2026-02-15",
+    "updatedDate": "2026-02-15",
+    "author": "Demo Admin",
+    "estimatedTime": "60分",
+    "machineType": [
+      "machining"
+    ],
+    "difficulty": "中級",
+    "toolsRequired": [
+      "エンドミル",
+      "ノギス"
+    ]
+  },
+  "overview": {
+    "description": "ブラケット加工の標準手順サンプルです。",
+    "warnings": [
+      "段取り後に原点確認を実施してください。"
+    ],
+    "preparationTime": "15分",
+    "processingTime": "45分"
+  },
+  "workSteps": [
+    {
+      "stepNumber": 1,
+      "title": "段取り",
+      "description": "ワーク固定と工具の基準出しを行う。",
+      "detailedInstructions": [
+        "バイス固定状態を確認する",
+        "基準面を測定して原点を設定する"
+      ],
+      "timeRequired": "20分",
+      "tools": [
+        "ノギス"
+      ],
+      "warningLevel": "important"
+    },
+    {
+      "stepNumber": 2,
+      "title": "輪郭加工",
+      "description": "外形と取付穴を加工する。",
+      "detailedInstructions": [
+        "粗加工後に寸法確認を行う",
+        "最終パスで仕上げる"
+      ],
+      "timeRequired": "40分",
+      "tools": [
+        "エンドミル"
+      ],
+      "warningLevel": "normal"
+    }
+  ],
+  "relatedDrawings": [
+    {
+      "drawingNumber": "DEMO-003",
+      "relation": "関連部品",
+      "description": "同一案件の周辺部品"
+    }
+  ],
+  "troubleshooting": [],
+  "revisionHistory": [
+    {
+      "date": "2026-02-15",
+      "author": "Demo Admin",
+      "changes": "公開版サンプルとして新規作成"
+    }
+  ]
+}
