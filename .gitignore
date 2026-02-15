@@ -41,6 +41,7 @@ yarn-error.log*
 .env.development
 .env.staging
 .env.production
+!.env.example
 
 # バッチファイル（本番環境設定含む）
 *.bat
